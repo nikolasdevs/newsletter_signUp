@@ -20,6 +20,7 @@ body {
   padding: 32px;
   border-radius: 32px;
   gap: 50px;
+  transition: all 0.5s ease;
 }
 
 .first-box {
@@ -127,6 +128,7 @@ input.error-state::placeholder {
   padding: 56px;
   border-radius: 40px;
   display: none;
+  transition: all 0.5s ease;
 }
 
 .success-container img {
@@ -140,7 +142,7 @@ input.error-state::placeholder {
   color: hsl(235, 18%, 26%);
 }
 
-.mobile-img{
+.mobile-img {
   display: none;
 }
 
@@ -172,7 +174,6 @@ input.error-state::placeholder {
     display: none;
   }
   .second-box .mobile-img {
-
   }
   header {
     gap: 28px;
