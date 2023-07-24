@@ -54,6 +54,7 @@ header p {
 .list-item {
   display: flex;
   gap: 8px;
+  align-items: center;
 }
 
 #form {
@@ -117,6 +118,13 @@ input.error-state::placeholder {
   display: none;
 }
 
+.second-box {
+  width: 100%;
+}
+.second-box img {
+  width: 100%;
+}
+
 .success-container {
   max-width: 500px;
   display: flex;
@@ -151,15 +159,15 @@ input.error-state::placeholder {
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
     border-radius: 0;
-    height: 100vh;
+    height: 100%;
     margin: 0;
-    gap: 0;
+    gap: 20px;
     padding: 0;
   }
 
   .first-box {
     justify-content: start;
-    padding: 0 32px;
+    padding: 20px 32px;
     gap: 28px;
   }
 
@@ -174,12 +182,30 @@ input.error-state::placeholder {
     display: none;
   }
   .second-box .mobile-img {
+    display: flex;
+    width: 100%;
   }
   header {
     gap: 28px;
   }
   header h1 {
-    font-size: 40px;
+    font-size: 32px;
     color: hsl(235, 18%, 26%);
+  }
+  header p {
+    font-size: 12px;
+    color: hsl(235, 18%, 26%);
+  }
+
+  .list-item {
+    font-size: 12px;
+  }
+  input {
+    padding: 14px;
+  }
+  button {
+    font-size: 12px;
+    padding: 14px;
+    margin-top: 12px;
   }
 }
